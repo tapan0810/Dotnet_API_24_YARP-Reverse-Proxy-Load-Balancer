@@ -1,4 +1,4 @@
-﻿namespace Dotnet_API_24_YARP_Reverse_Proxy_Load_Balancer.Entities.Models
+﻿namespace Proxy_API_2.Entities.Models
 {
     public class Player
     {

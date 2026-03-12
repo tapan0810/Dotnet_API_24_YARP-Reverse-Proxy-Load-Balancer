@@ -1,4 +1,4 @@
-namespace Dotnet_API_24_YARP_Reverse_Proxy_Load_Balancer.Entities.Dtos
+namespace Proxy_API_1.Entities.Dtos
 {
     public class UpdatePlayerDto
     {
