@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet_API_24_YARP Reverse Proxy Load Balancer", "Dotnet_API_24_YARP Reverse Proxy Load Balancer\Dotnet_API_24_YARP Reverse Proxy Load Balancer.csproj", "{1E6FFE35-D7C7-4163-8C66-E8F8032CEE91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy_API_1", "Proxy_API_1\Proxy_API_1.csproj", "{4375AC71-354B-470B-8D3D-E7BDC9CCE76D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy_API_2", "Proxy_API_2\Proxy_API_2.csproj", "{64FEECBC-C3F6-4334-BB4C-2601D17D3381}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E6FFE35-D7C7-4163-8C66-E8F8032CEE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6FFE35-D7C7-4163-8C66-E8F8032CEE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6FFE35-D7C7-4163-8C66-E8F8032CEE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6FFE35-D7C7-4163-8C66-E8F8032CEE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4375AC71-354B-470B-8D3D-E7BDC9CCE76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4375AC71-354B-470B-8D3D-E7BDC9CCE76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4375AC71-354B-470B-8D3D-E7BDC9CCE76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4375AC71-354B-470B-8D3D-E7BDC9CCE76D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FEECBC-C3F6-4334-BB4C-2601D17D3381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FEECBC-C3F6-4334-BB4C-2601D17D3381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FEECBC-C3F6-4334-BB4C-2601D17D3381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FEECBC-C3F6-4334-BB4C-2601D17D3381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57A39855-DF19-44CB-A215-7AE4D354338C}
+	EndGlobalSection
+EndGlobal

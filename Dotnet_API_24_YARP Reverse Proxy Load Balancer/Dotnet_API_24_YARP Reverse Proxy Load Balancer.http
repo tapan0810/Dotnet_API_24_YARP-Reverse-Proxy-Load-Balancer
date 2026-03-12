@@ -1,0 +1,6 @@
+@Dotnet_API_24_YARP_Reverse_Proxy_Load_Balancer_HostAddress = http://localhost:5018
+
+GET {{Dotnet_API_24_YARP_Reverse_Proxy_Load_Balancer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
