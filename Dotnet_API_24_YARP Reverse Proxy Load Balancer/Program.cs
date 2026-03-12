@@ -1,3 +1,7 @@
+using Dotnet_API_24_YARP_Reverse_Proxy_Load_Balancer.Data;
+using Dotnet_API_24_YARP_Reverse_Proxy_Load_Balancer.Service;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+builder.Services.AddDbContext<PlayerDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<IPlayerService,PlayerService>();
 
 var app = builder.Build();
 
