@@ -19,7 +19,11 @@ namespace Proxy_API_2.Controllers
                 return BadRequest("No Player exists !");
             }
 
-            return Ok(player);
+            return Ok(new
+            {
+                Server = "Proxy_API-2",
+                Data = player
+            });
         }
 
         [HttpGet("{id:int}", Name = "GetPlayerById")]

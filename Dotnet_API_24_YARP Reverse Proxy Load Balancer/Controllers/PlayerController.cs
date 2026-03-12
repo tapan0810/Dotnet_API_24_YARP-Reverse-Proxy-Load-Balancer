@@ -19,7 +19,11 @@ namespace Dotnet_API_24_YARP_Reverse_Proxy_Load_Balancer.Controllers
                 return BadRequest("No Player exists !");
             }
 
-            return Ok(player);
+            return Ok(new
+            {
+                Server = "Proxy_API_0",
+                Data = player
+            });
         }
 
         [HttpGet("{id:int}", Name = "GetPlayerById")]
