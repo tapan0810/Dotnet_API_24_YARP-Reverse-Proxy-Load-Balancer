@@ -1,0 +1,5 @@
+@YARP_Gateway_HostAddress = https://localhost:5001
+
+### Test Load Balancer
+GET {{YARP_Gateway_HostAddress}}/api/player/GetAllPlayers?pageNumber=1&pageSize=5
+Accept: application/json
